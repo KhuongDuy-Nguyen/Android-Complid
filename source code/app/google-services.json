@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "974057142714",
+    "firebase_url": "https://complid-743fb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "complid-743fb",
+    "storage_bucket": "complid-743fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974057142714:android:2291f6ac60e360adcc8583",
+        "android_client_info": {
+          "package_name": "vn.tdtu.student.note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974057142714-aa3cfvp09du8dmu37irgh7mj0q41mnp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu0KtwP_TZBC4-7PgBcoGyGfu2jpPSabA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974057142714-aa3cfvp09du8dmu37irgh7mj0q41mnp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

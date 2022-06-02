@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vn.tdtu.student.note">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Note"
+        tools:targetApi="31"
+        >
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"  />
+
+        <activity android:name=".Login.LoginActivity"  android:screenOrientation="portrait" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login.ForgotPasswordActivity" android:label="Forgot password" android:screenOrientation="portrait" />
+        <activity android:name=".Login.RegisterActivity" android:label="Register Account" android:screenOrientation="portrait" />
+
+
+        <activity android:name=".Note.NoteActivity" android:label="Note" android:screenOrientation="portrait" />
+
+        <activity android:name=".Note.AddNoteActivity" android:label="Add note" android:screenOrientation="portrait" />
+
+        <activity android:name=".Label.LabelActivity" android:label="Label" android:screenOrientation="portrait" />
+
+        <activity android:name=".Trash.TrashActivity" android:label="Trash" android:screenOrientation="portrait" />
+
+        <receiver android:name=".Alarm.AlarmReceiver" />
+
+    </application>
+
+</manifest>
